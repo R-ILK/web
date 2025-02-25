@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: greenyellow;
+    height: 90px ;
+    padding: 15px;
+}
+header h1 {
+    float: right;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo {
+    float: left;
+    margin-right: 10px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+nav {
+    background-color: darkolivegreen;
+    padding: 5px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: darkgrey;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    transition: border .5s;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    border: dotted darkolivegreen 5px;
+    transition: border .3s ;
+}
+main h2 {
+    color: darkolivegreen;
+    margin-top: 0px;
+    padding: 20px;
+}
+main {
+    background-color: black;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.CenterImage {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#horses {
+    border: rgb(3, 53, 3) solid 10px;
+}
+#farm {
+    color: white;
+    padding: 15px;
+}
+.EndImgs {
+    border: white solid 7px;
+    width: 550px;
+    height: 350px;
+    margin-bottom: 5px;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: olive;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+}
+footer p {
+    color: white;
+}
+
